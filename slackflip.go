@@ -14,7 +14,7 @@ func main() {
 	}
 
 	handler := func(w http.ResponseWriter, r *http.Request) {
-		w.Header().Set("Content-Type", "text/plain")
+		w.Header().Set("Content-Type", "text/plain; charset=UTF-8")
 
 		fmt.Fprintf(w, "(╯°□°）╯︵ ┻━┻")
 	}
