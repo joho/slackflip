@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	log.Printf("(╯°□°）╯︵ ┻━┻ boot")
 	portNumber := os.Getenv("PORT")
 	if portNumber == "" {
 		portNumber = "5000"
