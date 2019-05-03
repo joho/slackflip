@@ -23,5 +23,5 @@ func main() {
 	http.HandleFunc("/", handler)
 
 	log.Printf("(╯°□°）╯︵ ┻━┻ on port %v", portNumber)
-	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%v", portNumber), nil))
+	log.Fatal(http.ListenAndServe(":"+portNumber, nil))
 }
